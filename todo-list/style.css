@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+.display {
+    display: flex;
+}
+
+.box {
+    /* align-items: center; */
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y: hidden; */
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* overflow-y: hidden; */
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+/* .container{
+    /* border: 1px solid black; 
+    height: 400px;
+    width: 45% !important;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: white !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.container h1{
+    text-align: center;
+    
+} */
+.alert_message{
+    
+    margin-left: 0;
+    text-align: center;
+}
+input[type='text'] {
+    width: 23%;
+    margin-left: 38%;
+    height: 63px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.2rem;
+    margin-top: 24px;
+    outline: none;
+    border: none;
+}
+
+#tasks-list {
+    border: 2px solid none;
+    width: 26%;
+    height: auto;
+    margin-top: 36px;
+    margin-left: 36%;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    background-color: white;
+}
+
+.task li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.first-element {
+    display: inline-block;
+}
+
+.item {
+    width: 243px;
+    height: auto;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.item p {
+    margin-left: 13px;
+}
+
+.task-list {
+    margin-top: 20px;
+
+}
+.action-button{
+    margin-left: 13px;
+    margin-top: 8px;
+}
+#edit{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.complete{
+    border-radius: 10px;
+    height: 30px;
+    width: 97px;
+}
+.delete-button {
+    height: 34px;
+    width: 30px;
+    border: 1px solid;
+    margin-left: 21px;
+    background-color: rgb(165, 59, 179);
+    color: white;
+    text-align: center;
+    border-radius: 9px; 
+    cursor: pointer;
+}
+.delete{
+    margin-top: 3px;
+}
+.button {
+    background-color: rgb(165, 59, 179);;
+    color: white;
+    border: none;
+    margin-top: 1px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.bottom-line {
+    width: 290px;
+    height: 0;
+    border: 1px solid black;
+    margin-top: 11px;
+    margin-bottom: 14px;
+}
+
+.done {
+    text-decoration: line-through;
+    /* color: brown; */
+}
